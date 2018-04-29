@@ -1,0 +1,1 @@
+hadoop fs -setrep 2 /learn/hdfs/development/hadoop.txt

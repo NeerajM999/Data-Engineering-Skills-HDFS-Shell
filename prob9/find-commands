@@ -1,0 +1,6 @@
+## case sensitive
+hadoop fs -find /learn/hdfs -name *hadoop* -print
+
+## case insensitive
+hadoop fs -find /learn/hdfs -iname *hadoop* -print
+

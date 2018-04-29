@@ -1,0 +1,17 @@
+hadoop fs -ls /learn/hdfs/development
+
+hadoop fs -ls -d /learn/hdfs/development
+
+hadoop fs -ls -h /learn/hdfs/development
+
+hadoop fs -ls -S /learn/hdfs/development
+
+hadoop fs -ls -S -r /learn/hdfs/development
+
+hadoop fs -ls -t /learn/hdfs/development
+
+hadoop fs -ls -t -r /learn/hdfs/development
+
+hadoop fs -ls -R /learn/hdfs
+
+hadoop fs -lsr /learn/hdfs

@@ -1,0 +1,24 @@
+#Check if a directory exists on hadoop or not.
+hadoop fs -test -d /learn/hdfs/development
+
+#Check if path is correct or exists
+hadoop fs -test -e /learn/hdfs/development
+
+#Check if file exists
+hadoop fs -test -f /learn/hdfs/development/hadoop.txt
+
+#Check if path exists and is not empty
+hadoop fs -test -s /learn/hdfs/development
+
+#Check if file isn’t empty
+hadoop fs -test -d /learn/hdfs/development/hadoop.txt
+
+hadoop fs -touchz /learn/hdfs/development/zero.txt
+
+hadoop fs -touchz /learn/hdfs/development/zero1.txt  /learn/hdfs/development/zero2.txt
+
+hadoop fs -cp /learn/hdfs/development/Hadoop.txt /learn/hdfs/development/Hadoop2.txt
+
+hadoop fs -ls /learn/hdfs/development/Hadoop2.txt
+
+hadoop fs -truncate 50 /learn/hdfs/development/Hadoop2.txt

@@ -1,0 +1,4 @@
+       QUOTA       REM_QUOTA     SPACE_QUOTA REM_SPACE_QUOTA    DIR_COUNT   FILE_COUNT       CONTENT_SIZE PATHNAME
+        none             inf            none             inf            1            1                866 /learn/hdfs/admin
+        none             inf            none             inf            2            6             73.9 K /learn/hdfs/development
+        none             inf            none             inf            1            6             29.5 K /learn/hdfs/operations

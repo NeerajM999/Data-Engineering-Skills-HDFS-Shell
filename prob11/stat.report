@@ -1,0 +1,7 @@
+Type,User,Group,Size,Replication,Modification Date,Item
+regular file,root,dev,8497,1,2018-02-04 18:56:56,Hadoop.txt
+directory,root,dev,0,0,2018-02-04 20:06:33,data
+regular file,root,dev,3872,1,2018-01-30 23:38:21,fs.txt
+regular file,root,dev,8497,1,2018-01-30 20:23:04,hadoop.txt
+regular file,root,dev,8497,1,2018-01-30 22:50:15,hadoop2.txt
+regular file,root,dev,8497,1,2018-01-30 22:51:04,hadoop3.txt

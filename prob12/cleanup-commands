@@ -1,0 +1,22 @@
+hadoop fs -rm /learn/hdfs/development/hadoop3.txt
+
+hadoop fs -rm -skipTrash /learn/hdfs/development/hadoop2.txt
+
+hadoop fs -rm -R /learn/hdfs/development/data
+
+
+hadoop fs -cp hdfs://sandbox-hdp.hortonworks.com:8020/user/root/.Trash/Current/learn/hdfs/development/data /learn/hdfs/development
+
+hadoop fs -ls /learn/hdfs/development
+
+hadoop fs -rmr /learn/hdfs/development/data
+
+hadoop fs -ls hdfs://sandbox-hdp.hortonworks.com:8020/user/root/.Trash
+
+hadoop fs -ls hdfs://sandbox-hdp.hortonworks.com:8020/user/root/.Trash/Current/learn/hdfs/*
+
+hadoop fs -expunge
+
+hadoop fs -ls hdfs://sandbox-hdp.hortonworks.com:8020/user/root/.Trash/Current/learn/hdfs/*
+
+
